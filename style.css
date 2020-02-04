@@ -1,8 +1,38 @@
 body{
 	background-color: blanchedalmond;
 }
-#effets div {
+#effets div, #tests div, #animate div, #maBoite{
 	background: red;
 	height: 100px;
 	margin: 2px;
+}
+.alerte{
+	color: red;
+}
+.highlight{
+	background-color: yellow;
+}
+.bordure{
+	border: 5px solid grey;
+}
+.vert{
+	background-color: green !important;
+}
+#photos div img{
+	display: none;
+}
+#photos nav ul{
+	list-style: none;
+	padding: 0;
+}
+#photos nav li{
+	margin-bottom: 10px;
+}
+#photos nav li img{
+	max-width: 100%;
+	height: auto;
+	filter: grayscale(1) blur(1px);
+}
+#photos nav li img:hover{
+	filter: grayscale(0) blur(0);
 }
