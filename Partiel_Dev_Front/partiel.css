@@ -1,0 +1,31 @@
+
+
+
+
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    .container article{
+        text-align: center;
+        width: 600px;
+        height: 600px;
+        background: lightgoldenrodyellow;
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+#loupe {
+    position:absolute;
+    right:5px;
+    top:-90px;
+    display:inline-block;
+    background:#eee;
+    border:1px solid #DD4B39;
+    font-size:4em;
+    font-weight:700;
+    padding:10px;
+}
+#loupe:hover {
+    
+}
